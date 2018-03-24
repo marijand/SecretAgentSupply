@@ -1,0 +1,105 @@
+/* Whole Website */
+
+html{
+  font-size: 18px;
+}
+
+.spacer{
+  display: flex;
+  flex: 1 2 8.3333333rem;
+}
+
+.logo{
+  flex: 2 1 55.555555555rem;;
+}
+
+.backgroundheadermiddle{
+  flex: 2 1 55.555555555rem;
+}
+
+nav{
+  flex: 2 1 55.555555555rem;
+}
+
+/* Header */
+
+header{
+  display: flex;
+  background-color: black;
+  top: 0px;
+  position: fixed;
+  z-index: 1;
+  width: 1300px;
+}
+
+.logo{
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo img{
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  height: 1.5rem;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
+header span{
+  color: white;
+}
+
+/* Header Background Image */
+
+.backgroundheader{
+  display: flex;
+  margin-top: 2.8194rem;
+  background-image: url(../images/moto.jpeg);
+  height: 25rem;
+  width: 100%;
+  color: white;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.backgroundheadermiddle{
+  display: flex;
+}
+
+.backgroundheaderbox{
+  background-color: black;
+  width: 20rem;
+  height: 9rem;
+  margin-top: 9rem;
+}
+
+.backgroundheaderbox h1{
+  margin-top: 2rem;
+  margin-left: 3rem;
+  font-size: 1rem;
+}
+
+.backgroundheaderbox h2{
+  margin-top: 0.25rem;
+  margin-left: 3rem;
+  font-size: 2rem;
+}
+
+/* Navigation */
+
+.navigation{
+  display: flex;
+  background-color: firebrick;
+  width: 1300px;
+}
+
+nav{
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 0.75rem 0rem;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+}
