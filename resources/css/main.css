@@ -88,9 +88,10 @@ header span{
 
 .backgroundheaderbox{
   background-color: black;
-  width: 20rem;
-  height: 9rem;
+  width: 25rem;
+  height: 10rem;
   margin-top: 9rem;
+  margin-bottom: 5rem;
 }
 
 .backgroundheaderbox h1{
@@ -171,7 +172,7 @@ nav a{
 }
 
 .one{
-  width: 28.2%;
+  width: 27.8%;
 }
 
 /* Contact  */
@@ -188,7 +189,9 @@ nav a{
 }
 
 .two{
-  width: 32%;
+  width: 27.9%;
+  text-align: left;
+  padding-left: 2rem;
 }
 
 .contactcontent{
@@ -199,4 +202,9 @@ nav a{
 .contactcontentinformation{
   display: inline-flex;
   justify-content: space-between;
+}
+
+.info{
+  display: inline-flex;
+  border: 4px solid black;
 }
