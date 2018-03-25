@@ -45,7 +45,7 @@ header{
   top: 0px;
   position: fixed;
   z-index: 1;
-  width: 1300px;
+  width: 100%;
 }
 
 .logo{
@@ -110,7 +110,7 @@ header span{
 .navigation{
   display: flex;
   background-color: firebrick;
-  width: 1300px;
+  width: 100%;
 }
 
 nav{
@@ -129,7 +129,7 @@ nav a{
 .products{
   margin-top: 3rem;
   display: flex;
-  width: 1300px;
+  width: 100%;
 }
 
 .productmiddle{
@@ -154,7 +154,7 @@ nav a{
 
 .productsnames{
   display: flex;
-  width: 1300px;
+  width: 100%;
 }
 
 .productnamesmiddle{
@@ -179,7 +179,7 @@ nav a{
 .contact{
   margin-top: 3rem;
   display: flex;
-  width: 1300px;
+  width: 100%;
 }
 
 .contactnames{
@@ -193,7 +193,7 @@ nav a{
 
 .contactcontent{
   display: flex;
-  width: 1300px;
+  width: 100%;
 }
 
 .contactcontentinformation{
