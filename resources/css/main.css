@@ -6,7 +6,7 @@ html{
 
 .spacer{
   display: flex;
-  flex: 1 2 8.3333333rem;
+  flex: 1 2 8.333333333rem;
 }
 
 .logo{
@@ -168,15 +168,17 @@ nav a{
 }
 
 .boxtext{
+  display: flex;
   border: 4px solid black;
   background-color: black;
   color: white;
-  padding: 0.5rem;
-  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  justify-content: center;
 }
 
 .one{
-  width: 27.8%;
+  width: 30%;
 }
 
 /* Contact  */
@@ -193,7 +195,7 @@ nav a{
 }
 
 .two{
-  width: 27.9%;
+  width: 29%;
   text-align: left;
   padding-left: 2rem;
 }
@@ -210,8 +212,8 @@ nav a{
 
 .info{
   display: inline-flex;
-  border: 4px solid black;
   width: 33.6%;
+  margin-top: 1rem;
 }
 
 /* Footer */
